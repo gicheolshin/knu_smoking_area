@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
             {
 
                 gpsTracker = new Gps_Tracker(MainActivity.this);
-
                 double latitude = gpsTracker.getLatitude();
                 double longitude = gpsTracker.getLongitude();
                 ((MapFragment) getSupportFragmentManager().findFragmentByTag("main")).find(latitude,longitude);
