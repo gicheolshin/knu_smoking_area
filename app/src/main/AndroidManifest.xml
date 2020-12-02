@@ -16,13 +16,14 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCPYxrGZ6iF_qA7ikYNikzpD_mDMgodG_A" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".loding">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <service
+        </activity>
+        <activity android:name=".MainActivity"/><service
         android:name=".Gps_Tracker"
         android:enabled="true"
         android:exported="true" />
