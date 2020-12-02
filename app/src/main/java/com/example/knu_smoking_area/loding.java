@@ -10,11 +10,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,8 +20,6 @@ public class loding extends AppCompatActivity {
     Animation anim;
     ImageView img_splash;
     SharedPreferences sf;
-    FirebaseDatabase db;
-    DatabaseReference mdr;
     String saved_id,saved_pw,changed_pw,saved_family;
 
     // 메인액티비티 수정입니다
